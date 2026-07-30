@@ -1,0 +1,1 @@
+Devboard es un programa destinado a mejorar el trabajo colaborativo y la comunicacion entre desarrolladores y product owners.
