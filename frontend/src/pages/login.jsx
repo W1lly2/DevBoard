@@ -1,7 +1,12 @@
 import './login.css'
+import { useNavigate } from 'react-router-dom';
 import logo from '../assets/dev_logo.png';
 
 function Login(){
+    const navigate = useNavigate();
+    function handleLogin(){
+        navigate("/dashboard")
+    };
     return(
         <header className="login-page">
             <form className="login-form">
@@ -12,7 +17,7 @@ function Login(){
                 <label className="login-label">Password</label>
                 <input className='login-input' type="password" placeholder='Password'/>
 
-                <button className='login-button'>Login</button>
+                <button type='button' className='login-button' onClick={handleLogin}>Login</button>
             </form>
         </header>
     );
