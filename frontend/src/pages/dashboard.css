@@ -2,53 +2,6 @@
     min-height: 100vh;
 }
 
-.dashboard-header{
-    display: grid;
-    background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
-    grid-template-columns:50px 1fr 90px;
-    align-items: center;
-    padding: 20px 40px;
-
-    box-sizing: border-box;
-}
-
-.dashboard-logo{
-    width: 120px;
-    height: auto;
-}
-
-.dashboard-title{
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-align: center;
-}
-
-.dashboard-profile{
-    width: 60px;
-    height: 60px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: #F3F4F6;
-
-    border-radius: 50%;
-
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.profile-icon{
-    width: 24px;
-    height: 24px;
-}
-
-.dashboard-profile:hover{
-    background: #dfdede;
-}
-
 .dashboard-content{
     display: flex;
     justify-content: center;

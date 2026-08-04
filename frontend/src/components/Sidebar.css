@@ -1,0 +1,43 @@
+.sidebar{
+
+    top: auto;
+
+    width: 0;
+    height: auto; 
+
+    background: #d7e8ef;
+    color: white;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+    
+    transition: width .3s ease;
+
+    z-index: 1000;
+}
+
+.sidebar.open{
+    width:260px;
+}
+
+.sidebar h2{
+    margin-bottom: 30px;
+}
+
+.sidebar-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.sidebar-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.sidebar-nav a:hover{
+    background: rgba(255,255,255,.1);
+}

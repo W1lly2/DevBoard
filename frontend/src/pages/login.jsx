@@ -1,4 +1,4 @@
-import './login.css'
+import './Login.css'
 import { useNavigate } from 'react-router-dom';
 import logo from '../assets/dev_logo.png';
 

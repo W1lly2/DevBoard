@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Login from './pages/login.jsx'
+import Login from './pages/Login.jsx'
 import './styles/globals.css'
-import Dashboard from './pages/dashboard.jsx'
+import Dashboard from './pages/Dashboard.jsx'
 
 function App() {
   return(
