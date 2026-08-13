@@ -9,8 +9,8 @@ function Sidebar({isOpen}) {
                 <a href="#">Tareas</a>
                 <a href="#">Usuarios</a>
                 <a href="#">Bug Reports</a>
-                <a href="#">Perfil</a>
                 <a href="#">Configuracion</a>
+                <a href="#">Perfil</a>
             </nav>
         </aside>
     );

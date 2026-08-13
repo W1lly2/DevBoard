@@ -7,6 +7,11 @@
     font-size: 1.5rem;
 }
 
+.sidebar-button:hover{
+    background: #dfdede;
+    border-radius: 5px;
+}
+
 .dashboard-logo{
     width: 120px;
     height: auto;

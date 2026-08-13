@@ -1,9 +1,10 @@
 .sidebar{
 
-    top: auto;
+    display: flex;
+    flex-direction: column;
 
     width: 0;
-    height: auto; 
+    height: 100vh; 
 
     background: #d7e8ef;
     color: white;
@@ -30,14 +31,13 @@
     flex-direction: column;
     gap: 14px;
 }
-
 .sidebar-nav a{
     color: black;
     text-decoration: none;
     padding: 10px 12px;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .sidebar-nav a:hover{
-    background: rgba(255,255,255,.1);
+    background: rgba(15, 15, 15, 0.1);
 }

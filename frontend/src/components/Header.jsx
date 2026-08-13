@@ -5,7 +5,7 @@ import './Header.css'
 function Header({onMenuClick}){
     return(
          <header className="dashboard-header">
-            <button onClick={onMenuClick}>
+            <button className="sidebar-button" onClick={onMenuClick}>
                 ☰
             </button>
              <img src={logo} alt="DevBoard" className='dashboard-logo'/>
