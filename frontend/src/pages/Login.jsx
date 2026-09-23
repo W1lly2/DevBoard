@@ -13,6 +13,7 @@ function Login(){
         try {
             const response = await fetch('http://localhost:8000/login', {
                 method: 'POST',
+                credentials: 'include',
                 headers: {
                     'Content-Type': 'application/json'
                 },
@@ -26,6 +27,10 @@ function Login(){
             setLoginError('Invalid username or password');
             return;
         }
+
+        const data = await response.json();
+
+        
 
         navigate('/dashboard');
 
